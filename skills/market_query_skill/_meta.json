@@ -1,0 +1,58 @@
+{
+  "name": "market_query_skill",
+  "version": "1.0.0",
+  "author": "liwei-ch",
+  "description": "专业、高准确度的A股市场数据查询工具，严格调用官方auto_trade仓库接口，支持大盘情绪查询、大盘走势查询、个股信息查询三大核心功能，所有输出经过双源数据校验，100%可验证。",
+  "tags": ["A股", "市场数据", "大盘情绪", "个股查询", "量化交易"],
+  "dependencies": ["auto_trade"],
+  "functions": [
+    {
+      "name": "query_market_emotion",
+      "description": "查询指定日期全市场情绪指标，返回涨跌家数、涨跌停/炸板数据、北向资金、两融余额、股指期货升贴水、情绪等级等20+核心指标",
+      "parameters": [
+        {
+          "name": "date",
+          "type": "string",
+          "required": false,
+          "description": "查询日期，格式YYYY-MM-DD，默认当前交易日"
+        }
+      ]
+    },
+    {
+      "name": "query_index_trend",
+      "description": "查询指定日期核心指数走势、技术指标，支持自定义指数列表",
+      "parameters": [
+        {
+          "name": "index_list",
+          "type": "array[string]",
+          "required": false,
+          "description": "指数代码列表，默认查询上证、深成、创业板、科创50、北证50五大核心指数"
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "required": false,
+          "description": "查询日期，格式YYYY-MM-DD，默认当前交易日"
+        }
+      ]
+    },
+    {
+      "name": "query_stock_info",
+      "description": "查询指定个股的行情、基本面、技术指标、重大事件信息",
+      "parameters": [
+        {
+          "name": "ts_code",
+          "type": "string",
+          "required": true,
+          "description": "股票代码，格式如600000.SH、000001.SZ"
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "required": false,
+          "description": "查询日期，格式YYYY-MM-DD，默认当前交易日"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.13",
+    "lastTouchedAt": "2026-03-17T02:11:52.981Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-03-12T10:27:40.273Z",
+    "lastRunVersion": "2026.3.2",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "models": {
+    "providers": {
+       "providers": {
+         "zai": {
+        "baseUrl": " https://open.bigmodel.cn/api/paas/v4",
+        "apiKey": "08d014ced28c4a6bac4ae5428562e8a2.Uh6NysOU3o8Tf2Wf",
+        "api": "openai-completions",
+
+        "models": [
+  {
+    "id": "glm-5",
+    "name": "GLM-5",
+    "reasoning": true,
+    "input": ["text"],
+    "cost": {"input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0},
+    "contextWindow": 204800,
+    "maxTokens": 131072
+  },
+  {
+    "id": "glm-4.7",
+    "name": "GLM-4.7",
+    "reasoning": true,
+    "input": ["text"],
+    "cost": {"input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0},
+    "contextWindow": 204800,
+    "maxTokens": 131072
+  },
+  {
+    "id": "glm-5-turbo",
+    "name": "GLM-5-Turbo",
+    "reasoning": true,
+    "input": ["text"],
+    "cost": {"input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0},
+    "contextWindow": 204800,
+    "maxTokens": 131072
+  }
+    ]
+      },
+      "volcengine-plan": {
+        "baseUrl": "https://ark.cn-beijing.volces.com/api/coding/v3",
+        "apiKey": "5400917d-46fe-4d8a-bd74-20f6d68975bf",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "ark-code-latest",
+            "name": "ark-code-latest",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 256000,
+            "maxTokens": 32000
+          },
+          {
+            "id": "doubao-seed-code",
+            "name": "doubao-seed-code",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 256000,
+            "maxTokens": 32000
+          },
+          {
+            "id": "glm-4.7",
+            "name": "glm-4.7",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 128000
+          },
+          {
+            "id": "deepseek-v3.2",
+            "name": "deepseek-v3.2",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 32000
+          },
+          {
+            "id": "doubao-seed-2.0-code",
+            "name": "doubao-seed-2.0-code",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 256000,
+            "maxTokens": 128000
+          },
+          {
+            "id": "doubao-seed-2.0-pro",
+            "name": "doubao-seed-2.0-pro",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 256000,
+            "maxTokens": 128000
+          },
+          {
+            "id": "doubao-seed-2.0-lite",
+            "name": "doubao-seed-2.0-lite",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 256000,
+            "maxTokens": 128000
+          },
+          {
+            "id": "minimax-m2.5",
+            "name": "minimax-m2.5",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 128000
+          },
+          {
+            "id": "kimi-k2.5",
+            "name": "kimi-k2.5",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 256000,
+            "maxTokens": 32000
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+	"primary": "zai/glm-5-turbo",
+        "fallbacks": ["zai/glm-4.7"]
+      },
+      "models": {
+        "volcengine-plan/ark-code-latest": {},
+        "volcengine-plan/doubao-seed-2.0-code": {},
+        "volcengine-plan/doubao-seed-2.0-pro": {},
+        "volcengine-plan/doubao-seed-2.0-lite": {},
+        "volcengine-plan/doubao-seed-code": {},
+        "volcengine-plan/minimax-m2.5": {},
+        "volcengine-plan/glm-4.7": {},
+        "volcengine-plan/deepseek-v3.2": {},
+        "volcengine-plan/kimi-k2.5": {},
+	"zai/glm-5": {"alias": "GLM"},
+        "zai/glm-4.7": {},
+        "zai/glm-5-turbo": {}
+      },
+      "workspace": "/root/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    }
+  },
+  "tools": {
+    "web": {
+      "search": {
+        "enabled": false
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "channels": {
+    "feishu": {
+      "appId": "cli_a938e4f93ef89cce",
+      "appSecret": "Z8mPJ72AzFjnS5yKObYEfdyXkmJQt7Ox",
+      "enabled": true,
+      "connectionMode": "websocket",
+      "domain": "feishu",
+      "groupPolicy": "open"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "cc0c9a02ed188fa923ccacad85f7d579"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "remote": {
+      "url": "wss://ivone.me",
+      "token": "cc0c9a02ed188fa923ccacad85f7d579"
+    }
+  },
+  "plugins": {
+    "allow": [
+      "qqbot",
+      "ai-assistant-security-openclaw",
+      "wecom-openclaw-plugin",
+      "openclaw-lark",
+      "feishu",
+      "memos-cloud-openclaw-plugin"
+    ],
+    "entries": {
+      "qqbot": {
+        "enabled": true
+      },
+      "ai-assistant-security-openclaw": {
+        "enabled": true,
+        "config": {
+          "apiKey": "C804479F-CDA1-49DE-A1A5-9333F735F5F1",
+          "endpoint": "https://openclaw.sdk.access.llm-shield.omini-shield.com",
+          "appId": "app-d6iqe4ovtu9i6resbs7g"
+        }
+      },
+      "wecom-openclaw-plugin": {
+        "enabled": true
+      },
+      "openclaw-lark": {
+        "enabled": true
+      },
+      "feishu": {
+        "enabled": false
+      },
+      "memos-cloud-openclaw-plugin": {
+        "enabled": true,
+        "config": {
+          "baseUrl": "https://memos.memtensor.cn/api/openmem/v1",
+          "apiKey": "mpg-AIJdBtmjbN9G0XYcdpXB8ezMspF//XQ8C7GABMHD",
+          "userId": "openclaw-user",
+          "recallEnabled": true,
+          "recallGlobal": true,
+          "addEnabled": true,
+          "captureStrategy": "last_turn",
+          "maxItemChars": 8000,
+          "includeAssistant": true,
+          "tags": ["openclaw", "investment-assistant"]
+        }
+      }
+    },
+    "installs": {
+      "qqbot": {
+        "source": "path",
+        "sourcePath": "/root/qqbot",
+        "installPath": "/root/.openclaw/extensions/qqbot",
+        "version": "1.2.3",
+        "installedAt": "2026-02-03T09:14:05.915Z"
+      },
+      "ai-assistant-security-openclaw": {
+        "source": "npm",
+        "spec": "@omni-shield/ai-assistant-security-openclaw",
+        "installPath": "/root/.openclaw/extensions/ai-assistant-security-openclaw",
+        "version": "1.0.0",
+        "resolvedName": "@omni-shield/ai-assistant-security-openclaw",
+        "resolvedVersion": "1.0.0",
+        "resolvedSpec": "@omni-shield/ai-assistant-security-openclaw@1.0.0",
+        "integrity": "sha512-DtKymL9IxP9CXeZ5VU6CZqjKVJOqHsqGbqEuTy5oYy1VZJCjMFcTe67brpA5whe0T5uB9yoMF0uYcpEzkr0dtQ==",
+        "shasum": "b1a9adc689377f9bc441ebef188334518bfa926a",
+        "resolvedAt": "2026-03-12T18:00:14.543Z",
+        "installedAt": "2026-03-12T18:00:14.723Z"
+      },
+      "wecom-openclaw-plugin": {
+        "source": "npm",
+        "spec": "@wecom/wecom-openclaw-plugin@1.0.7-beta.0",
+        "installPath": "/root/.openclaw/extensions/wecom-openclaw-plugin",
+        "version": "1.0.7-beta.0",
+        "resolvedName": "@wecom/wecom-openclaw-plugin",
+        "resolvedVersion": "1.0.7-beta.0",
+        "resolvedSpec": "@wecom/wecom-openclaw-plugin@1.0.7-beta.0",
+        "integrity": "sha512-bxBBOdnPUOAuFBClngBaxFiu3pmU7z++5CEPS5nyrQEf4Mkl/3kDAaXXN05SafX3ZFJkLweIbboYq+5YRLb5hQ==",
+        "shasum": "897f18367b5ae491244de5337154bbc2ab6968ef",
+        "resolvedAt": "2026-03-12T18:00:15.884Z",
+        "installedAt": "2026-03-12T18:00:24.890Z"
+      },
+      "openclaw-lark": {
+        "source": "npm",
+        "spec": "@larksuite/openclaw-lark",
+        "installPath": "/root/.openclaw/extensions/openclaw-lark",
+        "version": "2026.3.12",
+        "resolvedName": "@larksuite/openclaw-lark",
+        "resolvedVersion": "2026.3.12",
+        "resolvedSpec": "@larksuite/openclaw-lark@2026.3.12",
+        "integrity": "sha512-MNcDrerQrO42I09w+M8q6dwnWHMKxOnXSCLG4qNwcekjGeDmA53lIuWJtGMpjTzvDjYkoWnN+8Zg78+FRCSV9w==",
+        "shasum": "113a4f9e9802fbb6b8c65677f1ede2c36e823a72",
+        "resolvedAt": "2026-03-12T18:00:26.105Z",
+        "installedAt": "2026-03-12T18:00:46.702Z"
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "initialized_at": "2026-03-14T01:14:00+08:00",
+  "last_update": "2026-03-14T01:14:00+08:00",
+  "growth": {
+    "baseline": {
+      "overall": 30,
+      "knowledge": 10,
+      "capability": 35,
+      "quality": 40,
+      "efficiency": 35
+    },
+    "current": {
+      "overall": 35,
+      "knowledge": 15,
+      "capability": 40,
+      "quality": 45,
+      "efficiency": 40
+    },
+    "history": [
+      {
+        "timestamp": "2026-03-14T01:14:00+08:00",
+        "overall": 35,
+        "knowledge": 15,
+        "capability": 40,
+        "quality": 45,
+        "efficiency": 40
+      }
+    ]
+  },
+  "tasks": {
+    "total": 6,
+    "completed": 6,
+    "in_progress": 0,
+    "failed": 0,
+    "completion_rate": 100,
+    "average_quality": 8.5,
+    "by_type": {
+      "配置管理": 3,
+      "技能安装": 1,
+      "文件管理": 1,
+      "系统配置": 1
+    }
+  },
+  "learning": {
+    "new_concepts": [
+      {
+        "name": "4周进化周期",
+        "mastery": 90,
+        "applied_count": 1,
+        "source": "user_question"
+      },
+      {
+        "name": "灵魂铁律保护机制",
+        "mastery": 95,
+        "applied_count": 1,
+        "source": "user_question"
+      },
+      {
+        "name": "知识库分类体系",
+        "mastery": 85,
+        "applied_count": 1,
+        "source": "user_question"
+      },
+      {
+        "name": "记忆+知识库前置搜索规则",
+        "mastery": 90,
+        "applied_count": 1,
+        "source": "user_question"
+      },
+      {
+        "name": "ClawHub技能安装方法",
+        "mastery": 80,
+        "applied_count": 1,
+        "source": "task_execution"
+      },
+      {
+        "name": "growth-tracker量化管理系统",
+        "mastery": 75,
+        "applied_count": 1,
+        "source": "skill_install"
+      }
+    ],
+    "total_concepts": 6,
+    "by_category": {
+      "系统配置": 3,
+      "技能使用": 2,
+      "知识管理": 1
+    }
+  },
+  "efficiency": {
+    "avg_response_time": 2.8,
+    "first_try_success_rate": 100,
+    "avg_iterations": 1.2,
+    "time_distribution": {
+      "thinking": 25,
+      "tools": 60,
+      "output": 15
+    }
+  },
+  "achievements": [
+    {
+      "type": "milestone",
+      "title": "完成系统初始化配置",
+      "timestamp": "2026-03-14T01:14:00+08:00",
+      "icon": "🌟"
+    },
+    {
+      "type": "highlight",
+      "title": "所有任务一次性完成，成功率100%",
+      "timestamp": "2026-03-14T01:14:00+08:00",
+      "icon": "⭐"
+    },
+    {
+      "type": "breakthrough",
+      "title": "成功安装首个外部技能包",
+      "timestamp": "2026-03-14T01:14:00+08:00",
+      "icon": "🎯"
+    }
+  ],
+  "goals": [
+    {
+      "name": "完成Week1记忆期任务",
+      "progress": 20,
+      "target": 100,
+      "unit": "%",
+      "eta_days": 6
+    },
+    {
+      "name": "掌握用户所有配置要求",
+      "progress": 80,
+      "target": 100,
+      "unit": "%",
+      "eta_days": 1
+    }
+  ],
+  "daily_stats": {
+    "2026-03-14": {
+      "conversations": 6,
+      "tasks_completed": 6,
+      "concepts_learned": 6,
+      "achievements": 3,
+      "overall_growth": 5
+    }
+  }
+}
